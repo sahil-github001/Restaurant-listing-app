@@ -1,0 +1,21 @@
+install bootstrap from react bootstrap = npm install react-bootstrap bootstrap
+bootswatch for theming  = download and paste to src folder
+
+create components = header and footer
+create home component = restlist (complete array of data from restaurent.json file)
+create component for display array of data in card = Restcard    
+
+redirection - view a restaurent
+    create a component = viewrest
+
+install react router dom = npm install --save react-router-dom
+        import into app.js
+            import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+                Route - for setup path for a component
+                Routes - for holding all routs path tag
+                Router - holding Routes
+
+useParams = (hook) Returns an object of key/value pairs of the dynamic params from the current URL that were matched by the route path.                 
+
+create a component- Restop for display opening time
+create a component - for dislplaying the reviews
